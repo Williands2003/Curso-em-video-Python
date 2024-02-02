@@ -1,0 +1,6 @@
+#faça um programa que mostre o antecessor e o sucessor de um numero
+number = int(input("digite um numero: "))
+ant = number -1
+suc = number +1
+
+print(f'{ant} <<< {number} >>> {suc}')
