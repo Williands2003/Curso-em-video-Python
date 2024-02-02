@@ -1,0 +1,13 @@
+#faça um programa que leia o numero, mostre o dobro, o triplo e a raiz quadrada
+import time
+number = int(input("digite um numero: "))
+dobro = number * 2
+triplo =  number * 3
+raiz = number **(1/2)
+print(f'seu nuemero foi : {number}')
+time.sleep(1)
+print(f'O dobro será {dobro}')
+time.sleep(1)
+print(f'O triplo será {triplo}')
+time.sleep(1)
+print(f'A raiz será {raiz}')
