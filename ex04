@@ -1,0 +1,10 @@
+#faça um programa que leia algo e mostre seu tipo primitivo e todas as informações possiveis
+import time
+letra = input('digite algo: ')
+
+time.sleep(1)
+print(type(letra))
+print('é um numero?', letra.isalnum())
+print('é uma letra?', letra.isalpha())
+print('é decimal?', letra.isdecimal())
+print('é numerico?', letra.isnumeric())
