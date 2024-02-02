@@ -1,0 +1,6 @@
+#crie um programa que leia 2 numeros e mostre a soma entre eles
+number1 = int(input("digite um numero: "))
+number2 = int(input("digite outro numero: "))
+soma = number1 + number2
+
+print(f'A soma de de {number1} e {number2} resulta em {soma}')
